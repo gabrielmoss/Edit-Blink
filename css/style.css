@@ -1,0 +1,252 @@
+@import url("../webfonts/Lato_LightItalic/stylesheet.css");
+@import url("../webfonts/Lato_Italic/stylesheet.css");
+
+/** --------------------------------------------------------------
+	http://www.fiverr.com/patdev
+	https://www.odesk.com/users/~0183ae3eb6582e89ba
+   * Resets default browser CSS.
+-------------------------------------------------------------- */
+html{margin:0;padding:0;border:0;}
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section{margin:0;padding:0;border:0;vertical-align:baseline;}
+article, aside, details, figcaption, figure, dialog, footer, header, hgroup, menu, nav, section{display:block;}
+body{line-height:1.5;background:white;}
+table{border-collapse:separate;border-spacing:0;}
+caption, th, td{text-align:left;font-weight:normal;float:none !important;}
+table, th, td{vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after{content:'';}
+blockquote, q{quotes:"" "";}
+a img{border:none;}
+:focus{outline:0;}
+.clear{clear:both;}
+.clearfix:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;}
+.clearfix{display:inline-block;}
+html[xmlns] .clearfix{display:block;}
+* html .clearfix{height:1%;}
+
+body{
+	min-width: 688px;
+	font-family:Lato-LightItalic, 'Lato', sans-serif;
+	font-weight:300;
+	font-size: 19px;
+	line-height: 23px;
+	color:#595858;
+}
+#wrapper {
+	width: 672px;
+	margin: 0 auto;
+	padding-bottom:40px;
+}
+#header {
+	padding-top:25px;
+}
+#header  h1 {
+	display:block;
+	margin-left:9px;
+	height:77px;
+	float:left;
+	overflow:hidden;
+	text-indent:-9999px;
+}
+#header  h1 a {
+	text-decoration:none;
+	display:block;
+	background:url(../img/logo.png) no-repeat;
+	width:221px;
+	height:77px;
+}
+#container {
+	margin-top:15px;
+}
+.home {
+}
+.home .text {
+	font-size:23px;
+	line-height:28px;
+	padding:0 110px 0 120px;
+	text-align:justify;
+}
+.home .form-text {
+	margin-top:28px;
+}
+.home .input-textarea {
+	background:url(../img/bg-textarea-center.png) repeat-y;
+}
+.home .textarea-bg-top {
+	background:url(../img/bg-textarea-top.png) top no-repeat;
+}
+.home .textarea-bg-bottom {
+	padding:26px 21px 26px 21px;
+	background:url(../img/bg-textarea-bottom.png) bottom no-repeat;
+}
+.home .input-textarea  textarea {
+	display:block;
+	width:630px;
+	border:none;
+	background:none;
+	text-align:left;
+	height:330px;
+	resize: none;
+	font-family: Lato-LightItalic,'Lato', sans-serif;
+	font-weight:300;
+	font-size: 19px;
+	line-height: 23px;
+	color:#595858;
+	overflow:auto;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+   .home .input-textarea  textarea {
+   	padding-right:10px;
+	width:620px;
+   }
+
+}
+.home .input-textarea  textarea::-webkit-scrollbar {
+    width: 7px;
+} 
+.home .input-textarea  textarea::-webkit-scrollbar-track {
+   /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;*/
+} 
+.home .input-textarea  textarea::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #B0B0B0; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+.home .input-textarea  textarea::-webkit-scrollbar-thumb:window-inactive {
+	/*background: rgba(255,0,0,0.4);  */
+}
+.home .count-bar {
+	display:block;
+	margin-top:12px;	
+	font-size: 23px;	
+}
+.home .count-bar input {
+	font-family: Lato-LightItalic,'Lato', sans-serif;
+	font-weight:300;
+	font-size: 23px;
+	line-height: 23px;
+	color:#595858;
+	margin-left:5px;
+	margin-top:17px;
+	display:block;
+	float:left;
+	border:none;
+	text-align:center;
+	background:none;
+	padding:0;
+}
+.home .count-bar label {
+	display:block;
+	float:left;
+	margin-left:24px;
+	margin-top:19px;
+	height:23px;
+	line-height:23px;
+}
+.home .count-bar div {
+	height:63px;
+	float:left;
+	margin-right:10px;
+	background:url(../img/bg-input-left.png) left no-repeat;
+}
+.home .count-bar div span {
+	display:block;
+	height:63px;
+	background:url(../img/bg-input-right.png) right no-repeat;
+}
+.home .count-bar .words {
+	width:169px;
+}
+.home .count-bar .words input {	
+	width:62px;	
+}
+.home .count-bar .rate {
+	width:133px;
+}
+.home .count-bar .rate input {
+	width:42px;
+}
+.home .count-bar .cost {
+	width:169px;
+}
+.home .count-bar .cost input {
+	width:80px;
+}
+.home .count-bar .pay {
+	width:169px;
+	margin-right:0;
+}
+.home .count-bar .pay input {
+	margin-left: 12px;
+	margin-top:12px;
+	background:none;
+	width: 145px;
+	padding: 0 !important;
+	height: 38px;
+	display: block;
+	float: left;
+}
+
+.thankyou {
+	width:384px;
+	margin:20px auto 0;
+}
+.thankyou .text {
+	width:360px;
+	margin:0 auto;
+	text-align:center;
+}
+.thankyou .text h2 {
+	font-family: Lato-Italic,'Lato', sans-serif;
+	font-weight:400;
+	font-size:32px;
+	line-height:38px;
+}
+.thankyou .text p {
+	margin-top:22px;
+}
+.thankyou .request-invite {
+	margin-top:20px;
+}
+
+.thankyou .request-invite div {
+	height:60px;
+	float:left;
+	margin-right:1px;
+	background:url(../img/bg-input-left-2.png) left no-repeat;
+}
+.thankyou .request-invite div span {
+	display:block;
+	height:60px;
+	background:url(../img/bg-input-right-2.png) right no-repeat;
+}
+.thankyou .request-invite .email {
+	width:249px;	
+}
+.thankyou .request-invite .email input {
+	color:#939292;
+	font-family: Lato-Italic,'Lato', sans-serif;
+	font-weight:400;
+	font-size:17px;
+	padding:0;
+	margin-left:21px;
+	margin-top:18px;
+	border:none;
+	width:200px;
+}
+.thankyou .request-invite .submit {
+	width:133px;	
+}
+.thankyou .request-invite .submit input {
+	width:109px;
+	height:35px;
+	margin:12px 0 0 12px;
+	border:none;
+	background:none;
+	color:#595858;
+	font-family: Lato-Italic,'Lato', sans-serif;
+	font-weight:400;
+	font-size:16px;
+}
