@@ -4,7 +4,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/thankyouscript.js"></script>
-<title>Untitled Document</title>
+<title>Edit Blink</title>
 <?php
 session_start();
 if( $_SESSION['inside'] == "" || !(isset($_SESSION['inside']))){
